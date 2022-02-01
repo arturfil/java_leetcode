@@ -17,3 +17,22 @@ public class FloodFill {
         }
     }
 }
+
+/*
+    TESTING
+    int[][] image = {
+        {1,1,1},
+        {1,1,0},
+        {1,0,1}
+    };
+    var flood = new FloodFill();
+    flood.floodFill(image, 1, 1, 4);
+
+    EXPLANATION
+    - This would be the same as changing the color of a single 
+      pixel in photoshop, paint etc.
+    - You are choosing an existing pixel and where it is at (cordinates => row an col)
+      and you want to change all the pixels that match that color
+    - When you look for that pixel, you check for neighbouring pixels with the same colour
+      BUT as long as they are 4 directionally connected (up, down, left, right) NOT diagonally
+*/
