@@ -1,4 +1,4 @@
-# Java LeetCode
+# Java LeetCode  ☕️ 🏎 🚀 ☕️
 <p>
     In this repo I'm going to be puting all the problems for leetcode in java.
     <br />
@@ -14,4 +14,5 @@ chmod 755 exec.sh
     I will also put a <strong>TESTING</strong> and <strong>EXPLANATION</strong> title
     in each file. <br/>
     That way you can see how to test the problem and the resoning behind it. <br/>
+    👨🏼‍💻&nbsp Ok that's all. 🖖🏼
 </p>
