@@ -1,4 +1,3 @@
-import BinarySearch.BinarySeach;
 import Graphs.FloodFill;
 
 public class Main {
@@ -10,6 +9,13 @@ public class Main {
         };
         var flood = new FloodFill();
         flood.floodFill(image, 1, 1, 4);
+        for(int[] row : image) {
+            System.out.print("[");
+            for (int pixel : row) {
+                System.out.print(pixel);
+            }
+            System.out.println("]");
+        }
     }
 
 }
