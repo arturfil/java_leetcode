@@ -1,5 +1,6 @@
 # Java LeetCode  ☕️ 🏎 🚀 ☕️
 <img src="https://media3.giphy.com/media/5zoxhCaYbdVHoJkmpf/giphy.gif">
+<p>( This is Hugo Sanches from Club de Cuervos ⚽️ &nbsp)
 <p>
     In this repo I'm going to be puting all the problems in review from leetcode, in java.
     <br />
