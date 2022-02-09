@@ -29,6 +29,14 @@ public class FloodFill {
     var flood = new FloodFill();
     flood.floodFill(image, 1, 1, 4);
 
+    // for printing the image after change if any -> ->
+    for(int[] row: image) {
+        for (int col: row) {
+            System.out.print(String.format("%s ", col));
+        }
+        System.out.println();
+    }
+
     EXPLANATION
     - This would be the same as changing the color of a single
     pixel in photoshop, paint etc.
