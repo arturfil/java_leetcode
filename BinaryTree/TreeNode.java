@@ -12,12 +12,13 @@ public class TreeNode {
         this.right = right;
     }
 
+    // not really exact print method (not perfect)
     public TreeNode printTree(TreeNode root) {
         System.out.println(root.val);
-        if (root.left == null) return root;
-        else printTree(root.left);
-        if (root.right == null) return root;
-        else printTree(root.right);
+        if (root.left != null)
+            printTree(root.left);
+        if (root.right != null)
+            printTree(root.right);
         return root;
     }
 }
