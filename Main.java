@@ -1,23 +1,23 @@
-import LinkedLists.ListNode;
-import LinkedLists.ReverseLinkedList;
+import BinaryTree.MaximumDepthBinaryTree;
+import BinaryTree.TreeNode;
 
 public class Main {
     public static void main(String[] args) {
 
-        ListNode head = new ListNode(1);
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
-        ListNode node4 = new ListNode(4);
-        ListNode node5 = new ListNode(5);
-        head.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
+        TreeNode root = new TreeNode(3);
+        TreeNode nl = new TreeNode(9);
 
-        var rev = new ReverseLinkedList();
-        rev.reverseLinkedList(head);
+        TreeNode nr = new TreeNode(20);
+        TreeNode n2r = new TreeNode(15);
+        TreeNode n3r = new TreeNode(7);
 
-        head.printNodes(head);
+        root.left = nl;
+        root.right = nr;
+        nr.left = n2r;
+        nr.right = n3r;
+
+        var max = new MaximumDepthBinaryTree();
+        max.maxDepth(root);
     }
 
 }
