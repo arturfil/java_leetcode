@@ -1,13 +1,11 @@
-import BinaryTree.SortedArrayToBinaryTree;
-import BinaryTree.TreeNode;
+import Arrays.LongestCommonPrefix;
 
 public class Main {
     public static void main(String[] args) {
-
-        int[] arr = new int[] {-10, -3, 0, 5, 9};
-
-        var arrayToBts = new SortedArrayToBinaryTree();
-        arrayToBts.sortedArrayToBST(arr);
+        
+        String[] strs = new String[] {"flower", "flow", "fligh"};
+        var longest = new LongestCommonPrefix();
+        longest.longestCommonPrefix(strs);
         
     }
 
